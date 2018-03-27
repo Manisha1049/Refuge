@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="101dp"
+            android:layout_marginStart="101dp"
+            android:layout_marginTop="24dp"
+            android:text="ABOUT US"
+            android:textColor="?android:attr/textColorLink"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="19dp"
+            android:text="Safety of women matters a lot whether at home, outside the home or working place. Our app provides various features for women safety. Features included are\n1.Alert Button : used to send notifications.
+2.Health Diseases: Symptoms and Prescriptions.\n3.Emegency call to concerned contacts\n4.Blood Bank: It provides the details of all the blood banks helpful in emergency conditions.\n5.First Aid Videos"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+    </RelativeLayout>
+</LinearLayout>
